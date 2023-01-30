@@ -138,6 +138,10 @@ button {
     background: #007BFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
+}
+
+.btn a {
+    text-decoration: none;
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
@@ -146,9 +150,14 @@ button {
     color: white;
 }
 
+.btn:hover {
+    opacity: 0.65;
+}
+
 .policy {
     width: 410px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 p {
@@ -160,7 +169,7 @@ p {
     color: #969696;
 }
 
-a {
+p a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -171,4 +180,41 @@ a {
     letter-spacing: -0.1px;
     color: #007BFF;
 
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 1px solid #E4E4E4;
+}
+
+.log_in {
+    display: flex;
+    justify-content: center;  
+}
+
+.log_in span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #545454;
+    margin-right: 20px;
+}
+
+.log_in a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #007BFF;
+    text-decoration: none;      
+}
+
+a:hover {
+    opacity: 0.65;
+}
+
+.btn a:hover {
+    opacity: 1;
 }
