@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.wrapper {
+    width: 570px;
+    background: white;
+    border-radius: 6px; 
+    padding: 35px;   
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__row-item {
+    margin-right: 12px;
+}
+
+.form__row-item:last-child {
+    margin-right: 0;
+}
+
+label {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+
+.input {
+    border-radius: 4px;
+    width: 245px;
+    height: 38px;
+    border: solid 2px #E4E4E4;
+    margin-top: 7px;
+}
+
+.input:active, .input:focus {
+    border-color: #007BFF;
+}
+
+::placeholder {
+    opacity: 0.65;
+}
+
+.form__email {
+    display: flex;
+}
+
+.email {
+    width: 500px;
+    margin-bottom: 7px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+.form__gender {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form__gender  input {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.gender__item {
+    margin-right: 20px;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+select {
+    appearance: none;
+    background: url(../img/svg/🔹\ Icon\ Color.svg) 96% / 5% no-repeat;
+    
+}
+
+select {
+    color: #545454;
+    opacity: 0.65;
+}
+
+select option {
+    color: #545454;
+}
+
+button {
+    margin-bottom: 22px;
+}
+
+.btn {
+    width: 500px;
+    height: 38px;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: white;
+}
+
+.policy {
+    width: 410px;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #007BFF;
+
+}
