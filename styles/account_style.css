@@ -120,12 +120,11 @@ select {
 }
 
 select {
-    color: #545454;
-    opacity: 0.65;
+    color: #545454;    
 }
 
 select option {
-    color: #545454;
+    color: #545454a9;;
 }
 
 button {
@@ -218,3 +217,4 @@ a:hover {
 .btn a:hover {
     opacity: 1;
 }
+

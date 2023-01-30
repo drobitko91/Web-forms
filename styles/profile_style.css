@@ -148,3 +148,56 @@ label {
 ::placeholder {
     opacity: 0.65;
 }
+
+.location {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+select {
+    appearance: none;
+    background: url(../img/svg/🔹\ Icon\ Color.svg) 96% / 5% no-repeat;    
+}
+
+select {
+    color: #545454;    
+}
+
+select option {
+    color: #545454a9;    
+}
+
+.number {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.code {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 38px;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.65;
+}
+
+.button {
+    margin-bottom: 69px;
+}

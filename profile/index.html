@@ -11,7 +11,7 @@
 </head>
 <body>
     <section class="profile">
-        <div class="container">
+        <section class="container">
             <div class="wrapper">
                 <h1>
                     Profile
@@ -51,19 +51,70 @@
                 <div class="form">
                     <div class="form__row">
                         <div class="form__row-item">
-                            <label for="fname"> First Name
+                            <label for="fname"> Name
                                 <input class="input" type="text" name="fname" placeholder="John">
                             </label>
                         </div>
                         <!-- /fname -->
 
-                        <div class="form__row-item">
-                            <label for="fname"> Last Name
-                                <input class="input" type="text" name="lname" placeholder="Smith">
-                            </label>
+                        <div class="form__email">
+                            <label for="email">E-mail
+                                <input class="input email" type="text" name="email" placeholder="smith@gmail.com">
+                            </label>                        
                         </div>
-                        <!-- /lname -->
+                        <!-- /e-mail -->
+                </div>
+                <!-- /form__row -->
+
+                <div class="location">
+                    <div class="location__country">
+                        <label for="country">Country</label>
+                            <select id="country" name="country" class="input">
+                                <option value=""  selected data-default class="select">Select</option>
+                                <option value="canada">Canada</option>
+                                <option value="france">France</option>
+                                <option value="ukraine">Ukraine</option>
+                                <option value="poland">Poland</option>
+                                <option value="germany">Germany</option>
+                                <option value="australia">Australia</option>
+                                <option value="monaco">Monaco</option>
+                                <option value="america">America</option>
+                            </select>
                     </div>
-                    <!-- /form__row -->
+                    <!-- /location__country -->
+
+                    <div class="location__city">
+                        <label for="">City
+                            <input class="input" list="city" name="city" type="text">
+                            </label>                               
+                    </div>
+                    <!-- /location__city -->
+                </div>
+                <!-- /location -->
+
+                <div class="number">
+                    <div class="code">
+                        <label for="code"> Zip Code
+                            <input class="input" type="text" name="code" placeholder="03124">
+                        </label>
+                    </div>
+
+                    <div class="phone">
+                        <label for="phone">Phone number
+                            <input class="input" type="tel" name="phone" placeholder="077 777 77 77">
+                        </label>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <div class="button">
+                    <button class="btn"><a href="#!">Update</a></button>
+                </div>
+                <!-- /button -->
+            </div>
+            <!-- /wrapper -->
+        </div>
+        <!-- /container -->
+    </section>
 </body>
 </html>
